@@ -17,7 +17,7 @@ function App() {
       <List persons={people} />
 
         <button
-          onClick={()=>console.log("you clikced me")}
+          onClick={()=>setPeople([])}
           >clear all
         </button>
 
