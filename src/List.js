@@ -1,9 +1,11 @@
 import React from 'react';
 
-const List = () => {
+const List = ({persons}) => {
   return (
     <>
-      <h2>list component</h2>
+    {persons.map((person)=>{
+  console.log(person, "person")
+    })}
     </>
   );
 };
