@@ -1,14 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import data from './data';
 
 function App() {
-  return (
-    <div className="App">
+  return <div>
+    {console.log(data)}
   
-  <p>birthday reminder</p>
-    </div>
-  );
+  <h3>reminder project setup</h3>
+  </div>;
 }
 
 export default App;
